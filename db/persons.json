@@ -1,0 +1,15 @@
+[
+  {
+    "firstName": "Chety",
+    "lastName": "Clooney",
+    "age": 33,
+    "meetups": [
+      {
+        "id": 1,
+        "name": "Woman Tech Makers Berlin With promises",
+        "attendees": ["Chety-Clooney-33-1", "Mirko-Clooney-1-2"]
+      }
+    ],
+    "id": 1
+  }
+]
