@@ -1,15 +1,1 @@
-[
-  {
-    "firstName": "Chety",
-    "lastName": "Clooney",
-    "age": 33,
-    "meetups": [
-      {
-        "id": 1,
-        "name": "Woman Tech Makers Berlin With promises",
-        "attendees": ["Chety-Clooney-33-1", "Mirko-Clooney-1-2"]
-      }
-    ],
-    "id": 1
-  }
-]
+[{"firstName":"Chety","lastName":"Clooney","age":33,"meetups":[{"id":1,"name":"Woman Tech Makers Berlin With promises","attendees":["Chety-Clooney-33-1","Mirko-Clooney-1-2"]}],"id":1},{"firstName":"Mirko","lastName":"Clooney","age":2,"meetups":[{"id":2,"name":"Google Hacks","attendees":["Mirko-Clooney-2-2"]}],"id":2},{"firstName":"Rodik","lastName":"Clooney","age":2,"meetups":[{"id":2,"name":"Google Hacks","attendees":["Mirko-Clooney-2-2"]},{"id":3,"name":"How to be a healthy person","attendees":["Rodik-Clooney-2-3"]}],"id":3},{"firstName":"zilx","lastName":"Clooney","age":30,"meetups":[],"id":5}]

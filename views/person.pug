@@ -1,0 +1,17 @@
+extends layout 
+block content 
+    h1 #{person.firstName} Info
+    div.person-info
+        p #{person.firstName} #{person.lastName}  is #{person.age} years old
+    div.person-meetups-container
+        h3 Meetups
+        ol.meetups
+            each meetup of person.meetups
+                li #{meetup.name}
+
+    
+    
+
+
+        
+    

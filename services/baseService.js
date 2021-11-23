@@ -35,14 +35,20 @@ class Service {
   }
 
   async add(element) {
-    const data = await this.findAll();
-    let lastElementId = 0;
-    if (data.length > 0) {
-      lastElementId = data[data.length - 1].id;
+    try {
+      const data = await this.findAll();
+      let lastElementId = 0;
+      if (data.length > 0) {
+        lastElementId = data[data.length - 1].id;
+      }
+      element.id = lastElementId + 1;
+      data.push(element);
+      await this.saveAll(data);
+      return true;
+    } catch (err) {
+      console.error(err);
+      return false;
     }
-    element.id = lastElementId + 1;
-    data.push(element);
-    await this.saveAll(data);
   }
 
   async find(id) {
