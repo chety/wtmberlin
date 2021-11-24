@@ -1,0 +1,9 @@
+extends layout
+block content
+    h1 #{meetup.name} Details
+    strong  Meetup Name: #{meetup.name}
+    strong  Meetup Id: #{meetup.id}
+    h2 Attendees 
+    ol.meetup-attendees 
+        each person of meetup.attendees
+            li #{person.firstName} #{person.lastName}  #{person.age}

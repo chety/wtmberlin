@@ -5,7 +5,7 @@ class Person {
     this.lastName = lastName;
     this.age = age;
     this.meetups = meetups;
-    this.id = id;
+    this.id = Number(id);
   }
   attend(meetup) {
     this.meetups.push(meetup);
